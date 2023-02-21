@@ -30,8 +30,9 @@ public class MathUtility {
         //sống sót đến đây, sure n = 2...20\
         //for hay đệ quy mà tính
         long product = 1; //biên tích lũy, gom việc nhân i vào
-        for (int i = 2; i < n; i++) //make code wrong
-            product *= i;
+        for (int i = 2; i <= n; i++) //do not make code wrong
+                                     //if upload this modification 
+            product *= i;            //we will see the GREEN again
         
         return product;
         
